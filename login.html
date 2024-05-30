@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Register</h1>
+            <form action="code.php" method="POST">
+                <div class="input-grp">
+                    <div class="input-field" id="nameField">
+                        <input type="text" placeholder="Name" name="username" id="name" class="name">
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email" name="email" id="email" class="email">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" name="password" id="password">
+                    </div>
+                    <p>Forgot password? <a href="#">Click Here</a></p>
+                </div>
+                <div class="btn-field">
+                    <input type="submit" id="registerBtn" class="btn" value="Register">
+                    <button type="button" class="disable" id="loginBtn">Log in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
